@@ -1,5 +1,2 @@
 streamlit
 pandas
-pymatgen
-py3Dmol
-crytsal-toolkit
