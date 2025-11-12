@@ -13,7 +13,7 @@ import streamlit as st
 import pandas as pd
 
 # Loading all data
-# data_literature = pd.read_csv('SC_Literature.csv')
+data_literature = pd.read_csv('SC_Literature.csv')
 # data_mp = pd.read_csv('SC_MP.csv')
 # data_us1 = pd.read_csv('SC_L_SMACT.csv')
 # data_us2 = pd.read_csv('SC_SMACT_New.csv') 
