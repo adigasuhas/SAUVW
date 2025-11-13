@@ -27,7 +27,7 @@ col1, col2 = st.columns([1, 6])
 
 with col1:
     if logo_path:
-        st.image(logo_path, use_column_width=True, caption="Project Logo")
+        st.image(logo_path, use_column_width=True, caption="")
 
 with col2:
     st.title("🚀 Text Mined Crystal Structure Database of Superconductors")
@@ -48,16 +48,20 @@ st.divider()
 # --- Description block ---
 st.markdown(
     """
-The dataset is generated through text mining and benchmarking of **60 research articles**.
+The dataset is constructed through large-scale text mining and benchmarking of 60 peer-reviewed research articles, focused on extracting superconducting compositions and associated structural information.
 
-A total of **461 compositions** along with their $T_c$ values were extracted.
+In total, 461 unique compositions with their corresponding superconducting transition temperatures ($T_c$) were identified.
+The structural completeness of these entries is categorized as follows:
 
-- **97** have full crystal structure information  
-- **54** have CIF files  
-- **77** contain partial information  
-- **287** have no crystal structure data  
+- **97** compositions with full crystal structure information
 
-Below are the two datasets used in this project.
+- **54** compositions with available CIF files
+
+- **77** compositions with partial structural information
+
+- **287** compositions with no accessible crystal structure data
+
+Together, these form the two primary datasets used in this project.
 """
 )
 
@@ -89,8 +93,7 @@ st.markdown(
     """
 [1] Center for Basic Research on Materials, *MDR SuperCon Datasheet*, ver.240322 (2024).  
 [2] K. M. Rabe et al., Phys. Rev. B **45**, 7650 (1992).  
-[3] D. Davies et al., *J. Open Source Softw.* **4**, 1361 (2019).  
-[4] V. Stanev et al., *npj Comput. Mater.* **4**, 28 (2018).  
+[3] S. Adiga and U. V. Waghmare, arXiv:2505.11964 [cond-mat.supr-con] (2025)
 """
 )
 
