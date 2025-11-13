@@ -1,7 +1,7 @@
 # Text Mined Crystal Structure Database of Superconductors
 
 <div align="center">
-    <img src="SAUVW.png" width="600">
+    <img src="SAUVW.png" width="350">
 </div>
 
 
